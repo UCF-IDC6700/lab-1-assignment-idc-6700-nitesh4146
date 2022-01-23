@@ -19,11 +19,14 @@ UCFID: 4181058
     * How are data columns separated?
       > Yes, the columns are separated by comma (,)
     * Are there comments in the data?
-      > No, there are no comments in the data
+      > No, there are no comments in the data  
+
+      <img src="./img/213.png" alt="drawing" width="400"/>
+
   * Load that data file into a data frame in R.  Pay special attention to the following parameters of read.table:
     * header=True
     * sep=","
-    * comment.char="?"
+    * comment.char="" (or "#" - but it won't matter)
 			
 3. Peruse the Data:
   * Print the names of the variables in the data table (hint:  ?colnames)
