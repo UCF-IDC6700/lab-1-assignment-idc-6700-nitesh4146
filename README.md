@@ -1,18 +1,28 @@
 # Lab 1 Assignment
-Please write an R script that performs the operations described below.  When you are done, submit your assignment by pushing to GitHub.  You do not need to submit anything in Cavas.  Make sure the file you submit can be executed in R or RStudio with a clean environment.  That is, make sure it will provide output using the source() command from within R.  Perform all the operations described below.  Comment your script so that I know which lines are meant to address which item in the list below.
+Submitted by: Nitish Gupta  
+UCFID: 4181058
+***
 
 1. Install R and R-Studio:
-  * http://www.r-project.org 
-  * http://www.rstudio.com/products/RStudio/#Desk
+  * http://www.r-project.org   
+    <img src="./img/r_install1.png" alt="drawing" width="400"/>
+  * http://www.rstudio.com/products/RStudio/#Desk  
+    <img src="./img/r_install2.png" alt="drawing" width="400"/>
+
   
 2. Get the Data:
   * Inspect the data set for the lab (lab1.dat)
-    * Are the column headers included in the file?
+    * Are the column headers included in the file?  
+      > Yes, the column headers are included in the data file  
+
+      <img src="./img/211.png" alt="drawing" width="600"/>`
     * How are data columns separated?
+      > Yes, the columns are separated by comma (,)
     * Are there comments in the data?
+      > No, there are no comments in the data
   * Load that data file into a data frame in R.  Pay special attention to the following parameters of read.table:
-    * header=?
-    * sep="?"
+    * header=True
+    * sep=","
     * comment.char="?"
 			
 3. Peruse the Data:

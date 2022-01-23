@@ -14,3 +14,4 @@
 #
 
 #  vvvvv Put your code down here vvvvvv
+lab1_data <- read.table("./lab1.dat", header=TRUE, sep=",")
